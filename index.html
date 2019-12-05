@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Component test</title>
+    <script type="module" src="./your-script.js"></script>
+</head>
+<body>
+
+    <your-component></your-component>
+
+    <script>
+        let options = {};
+        let i = 0;
+        function updateOptions() {
+            let component = document.querySelector("your-component");
+            component.options = options;
+        }
+        function goTo(lat, long) {
+            options = {
+                location: {
+                    lat: lat,
+                    long: long
+                },
+                time: {
+                    start: 1575244800000,
+                    stop: 1575849600000
+                }
+            };
+            updateOptions();
+        }
+    </script>
+
+    <button onclick="goTo(60.4518,  22.2666)">Turku</button>
+    <button onclick="goTo(60.170444, 24.940833)">Helsinki</button>
+
+</body>
+</html>
