@@ -2,7 +2,7 @@
 
 You have been selected to perform a coding test for Visit Intelligence.
 
-Your task is to build a web component that presents data from our weather api in UI friendly way.
+Your task is to build a [web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) that presents data from our weather api in UI friendly way.
 You can use a framework of your choice, Angular usage would be a plus, plain javascript and html5 would work as well.
 
 ## Specification
