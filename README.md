@@ -46,8 +46,6 @@ let options = {
 component.options = options;
 ```
 
-Simple example usage can also be found in `index.html` file
-
 ## Requirements
 
 - Resulting component has to register a custom element of you choice
@@ -62,6 +60,11 @@ Simple example usage can also be found in `index.html` file
 
 - Usage of shadow dom
 - Different views for compact and detailed presentation
+
+## Example
+Besides simple example usage code in `index.html` file, here's how usage of your component(grey placeholder on the right) could look in the production environment:
+https://github.com/Teknovisio/org.visit.component.test/blob/master/example.gif
+
 
 ## Delivery of the test
 
