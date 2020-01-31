@@ -63,7 +63,7 @@ component.options = options;
 
 ## Example
 Besides simple example usage code in `index.html` file, here's how usage of your component(grey placeholder on the right) could look in the production environment:
-![](example.gif)
+![](https://raw.githubusercontent.com/Teknovisio/org.visit.component.test/master/example.gif)
 
 ## Delivery of the test
 
